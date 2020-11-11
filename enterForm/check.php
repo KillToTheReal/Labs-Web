@@ -35,12 +35,6 @@
 
         $req_sec = $db->prepare("INSERT INTO `secret`(`amount`,`status`) VALUES ('$payment','$status') ");
 
-       // $mysql->query("INSERT INTO `users`(`name`,`login`,`pass`,`surname`) VALUES ('$name','$login','$pass','$surname')");
-
-      //  $mysql->query("INSERT INTO `secret`(`amount`,`status`) VALUES ('$payment','$status') ");
-
-      //  $mysql->close();
-
         header('Location: ../login.php');
 
     } else 
