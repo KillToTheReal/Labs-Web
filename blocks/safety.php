@@ -18,6 +18,5 @@
         
     }
     unset($member);
-    print_r($object);
     }
 ?>
