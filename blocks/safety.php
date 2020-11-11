@@ -8,7 +8,7 @@
         foreach($object as &$member) 
         {
             
-        $member = preg_replace('/\s+/', ' ', $member)  //Удаление пробелов
+        $member = preg_replace('/\s+/', ' ', $member);  //Удаление пробелов
 
         $member = trim($member);
         
