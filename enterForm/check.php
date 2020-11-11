@@ -34,6 +34,8 @@
         $req_log->execute();
 
         $req_sec = $db->prepare("INSERT INTO `secret`(`amount`,`status`) VALUES ('$payment','$status') ");
+        
+        $req_sec->execute();
 
         header('Location: ../login.php');
 
