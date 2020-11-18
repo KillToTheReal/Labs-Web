@@ -1,9 +1,9 @@
 <?php
-    function safety_request(array &$object) 
+    function safety_request(array &$object) //Применение ко всему выбранному массиву
     {
-        $subject = array ("/\"/", "/\'/" , "/\;/", "/\:/","/x00/", "/x1a/");
+        $subject = array ("/\"/", "/\'/" , "/\;/", "/\:/","/x00/", "/x1a/"); //Словарь шаблонов
         
-        $replace = array ("\\\"", "\\\'" , "\\\;", "\\\:", "\\x00", "\\x1a");
+        $replace = array ("\\\"", "\\\'" , "\\\;", "\\\:", "\\x00", "\\x1a"); //Словарь замен
 
         foreach($object as &$member) 
         {
