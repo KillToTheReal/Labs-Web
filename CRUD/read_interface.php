@@ -131,8 +131,8 @@ foreach ($infof as $inf)
     
     <tr>
         <td> <?= $inf[0] ?></td>
-        <td> <?= $inf[1] ?></td>
         <td> <?= $inf[2] ?></td>
+        <td> <?= $inf[1] ?></td>
         <td> <?= $inf[4] ?></td>
         <td> <?= $inf[3] ?></td>
         <td> <?= $inf[5] ?></td>
