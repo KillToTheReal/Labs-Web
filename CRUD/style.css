@@ -1,0 +1,37 @@
+
+
+
+th, td {
+    padding: 15px;
+    margin-top: 20 px;
+    border: 2px solid black;
+   
+}
+
+
+th {
+    background : #606060;
+    color: #fff;
+}
+
+
+.container
+{
+    display: flex;
+   
+}
+
+.cont
+{
+    text-align: left;
+    flex-direction: column;
+}
+
+table {
+    width:100%;
+}
+
+td {
+    color: #000;
+	background: #b5b5b5;
+}
